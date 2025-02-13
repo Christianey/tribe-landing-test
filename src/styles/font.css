@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Patron";
+  src: url("../fonts/PatronTRIAL-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Patron";
+  src: url("../fonts/PatronTRIAL-Medium.otf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Patron";
+  src: url("../fonts/PatronTRIAL-Light.otf") format("truetype");
+  font-weight: light;
+}
+@font-face {
+  font-family: "Patron";
+  src: url("../fonts/PatronTRIAL-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Patron";
+  src: url("../fonts/PatronTRIAL-Thin.otf") format("truetype");
+  font-weight: thin;
+}

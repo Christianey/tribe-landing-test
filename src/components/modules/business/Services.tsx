@@ -81,11 +81,9 @@ const Services = () => {
   const { isMobile } = useResponsive();
   const pagePerView = useMemo(() => (isMobile ? 1.1 : 2.3), [isMobile]);
 
-  // console.log({lllfff: paginationRef.current});
-
   return (
     <>
-      <section className="relative lg:py-20 py-16 max-container-width overflow-hidden">
+      <section className="relative lg:px-20 px-5 py-10 lg:py-32 max-container-width overflow-hidden rounded-[40px] bg-white mt-8">
         <ScrollAnimation>
           <div className="flex flex-col justify-center">
             <h3 className="font-bold text-2xl md:text-5xl !leading-tight mb-6">
@@ -141,7 +139,7 @@ type FeatureProps = {
 const Feature = ({ title, desc }: FeatureProps) => {
   return (
     <div className="flex flex-col gap-4 basis-full lg:basis-1/2 grow shrink-0 pr-8 pb-8">
-      <div className="h-2 w-32 bg-white rounded-full"></div>
+      {/* <div className="h-2 w-32 bg-[#0A0A0A] rounded-full"></div> */}
 
       <h3 className="text-2xl font-semibold">{title}</h3>
       <p className="text-primaryBlack-default/50">{desc}</p>

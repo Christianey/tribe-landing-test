@@ -52,7 +52,7 @@ const Features = () => {
           <ScrollAnimation
             variant={feature.variant}
             key={index}
-            className="bg-white flex flex-col lg:px-6 px-5 py-[30px] rounded-[20px] border border-gray-100 shadow-sm "
+            className="flex flex-col lg:px-6 px-5 py-[30px] rounded-[20px] border border-[#OAOAOA]"
           >
             <div className="">
               {feature.icon && (

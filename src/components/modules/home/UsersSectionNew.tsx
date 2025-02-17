@@ -5,7 +5,7 @@ import { PiShapes } from "react-icons/pi";
 
 const UsersSectionNew = () => {
   return (
-    <section className="bg-white text-[#1b1b1b] flex flex-col md:flex-row justify-between lg:pb-[2.5rem] pt-[2.5rem] gap-5 md:gap-10 max-container-width">
+    <section className="bg-white text-[#1b1b1b] flex flex-col md:flex-row justify-between gap-5 md:gap-10 max-container-width py-10 md:py-32">
       <ScrollAnimation variant="delay1">
         <div className={`flex flex-col justify-center gap-4 md:mb-0 mb-8`}>
           <div className="flex gap-4 items-center">

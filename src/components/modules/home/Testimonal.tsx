@@ -16,67 +16,70 @@ const Testimonal = () => {
         </p>
         <div>
           <hr className="h-px bg-gray-200 border-0 w-full" />
-          <div className="mt-20 px-8">
-            <div className="flex lg:flex-row flex-col items-center justify-center gap-10 xl:gap-10">
-              <ScrollAnimation variant="delay1">
-                <div className="flex flex-col items-center text-center gap-5  bg-white border-[.5px] border-gray-200 rounded-lg px-6 py-7">
-                  <Image
-                    src="/images/home/Testimonal.svg"
-                    width={100}
-                    height={100}
-                    alt={"staff"}
-                    className=" w-[1.9rem] h-[1.642rem]"
-                  />
+          <div className="mt-20 px-0 lg:px-8">
+            <div className="flex lg:flex-row flex-col items-center justify-center flex-wrap">
+              <div className="w-full md:w-1/2 p-2 lg:p-8">
+                <ScrollAnimation variant="delay1">
+                  <div className="flex flex-col text-center gap-5 bg-[#F0EEFC] border-[.5px] border-gray-200 rounded-3xl px-6 py-7">
+                    <Image
+                      src="/images/home/Testimonal.svg"
+                      width={100}
+                      height={100}
+                      alt={"staff"}
+                      className=" w-[1.9rem] h-[1.642rem]"
+                    />
+                    <p className=" text-text-gray-text font-medium text-base lg:text-lg">
+                      Tribapay's Cashpin feature has transformed the way I
+                      handle my finances. With its cutting-edge security
+                      measures, I feel completely at ease managing my funds.
+                    </p>
+                    <hr className="h-px bg-gray-200 border-0 w-full" />
+                    <h2 className="text-2xl font-medium">Opeyemi Adekunle</h2>
+                  </div>
+                </ScrollAnimation>
+              </div>
 
-                  <p className=" text-text-gray-text font-medium text-base lg:text-lg">
-                    Tribapay's Cashpin feature has transformed the way I handle
-                    my finances. With its cutting-edge security measures, I feel
-                    completely at ease managing my funds.
-                  </p>
-                  <hr className="h-px bg-gray-200 border-0 w-full" />
-                  <h2 className="text-2xl font-bold">Opeyemi Adekunle</h2>
-                </div>
-              </ScrollAnimation>
+              <div className="w-full md:w-1/2 p-2 lg:p-8">
+                <ScrollAnimation variant="delay2">
+                  <div className="flex flex-col text-center gap-5 bg-[#F0EEFC] border-[.5px] border-gray-200 rounded-3xl px-6 py-7">
+                    <Image
+                      src="/images/home/Testimonal.svg"
+                      width={100}
+                      height={100}
+                      alt={"staff"}
+                      className=" w-[1.9rem] h-[1.642rem]"
+                    />
+                    <p className=" text-text-gray-text font-medium text-base lg:text-lg">
+                      I used to worry about currency conversions and security
+                      when shopping online internationally. But now, with these
+                      virtual cards, I make purchases with confidence.
+                    </p>
+                    <hr className="h-px bg-gray-200 border-0 w-full" />
+                    <h2 className="text-2xl font-medium">Temitayo Lawrence</h2>
+                  </div>
+                </ScrollAnimation>
+              </div>
 
-              <ScrollAnimation variant="delay2">
-                <div className="flex flex-col items-center text-center gap-5  bg-white border-[.5px] border-gray-200 rounded-lg px-6 py-7">
-                  <Image
-                    src="/images/home/Testimonal.svg"
-                    width={100}
-                    height={100}
-                    alt={"staff"}
-                    className=" w-[1.9rem] h-[1.642rem]"
-                  />
-
-                  <p className=" text-text-gray-text font-medium text-base lg:text-lg">
-                    I used to worry about currency conversions and security when
-                    shopping online internationally. But now, with these virtual
-                    cards, I make purchases with confidence.
-                  </p>
-                  <hr className="h-px bg-gray-200 border-0 w-full" />
-                  <h2 className="text-2xl font-bold">Temitayo Lawrence</h2>
-                </div>
-              </ScrollAnimation>
-
-              <ScrollAnimation variant="delay3">
-                <div className="flex flex-col items-center text-center gap-5  bg-white border-[.5px] border-gray-200 rounded-lg px-6 py-7">
-                  <Image
-                    src="/images/home/Testimonal.svg"
-                    width={100}
-                    height={100}
-                    alt={"staff"}
-                    className=" w-[1.9rem] h-[1.642rem]"
-                  />
-
-                  <p className=" text-text-gray-text font-medium text-base lg:text-lg">
-                    Managing my finances has never been this enjoyable, thanks
-                    to Tribapay's Cashpin Wallet. I can budget my money, track
-                    my expenses, manage my money, all in one place.
-                  </p>
-                  <hr className="h-px bg-gray-200 border-0 w-full" />
-                  <h2 className="text-2xl font-bold">Taiwo Abiodun</h2>
-                </div>
-              </ScrollAnimation>
+              <div className="w-full md:w-1/2 p-2 lg:p-8">
+                <ScrollAnimation variant="delay3">
+                  <div className="flex flex-col text-center gap-5 bg-[#F0EEFC] border-[.5px] border-gray-200 rounded-3xl px-6 py-7">
+                    <Image
+                      src="/images/home/Testimonal.svg"
+                      width={100}
+                      height={100}
+                      alt={"staff"}
+                      className=" w-[1.9rem] h-[1.642rem]"
+                    />
+                    <p className=" text-text-gray-text font-medium text-base lg:text-lg">
+                      Managing my finances has never been this enjoyable, thanks
+                      to Tribapay's Cashpin Wallet. I can budget my money, track
+                      my expenses, manage my money, all in one place.
+                    </p>
+                    <hr className="h-px bg-gray-200 border-0 w-full" />
+                    <h2 className="text-2xl font-medium">Taiwo Abiodun</h2>
+                  </div>
+                </ScrollAnimation>
+              </div>
             </div>
           </div>
         </div>

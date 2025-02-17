@@ -14,6 +14,7 @@ import Empowering from "@/components/modules/business/Empowering";
 import Waitlist from "@/components/modules/business/Waitlist";
 import Head from "next/head";
 import DownloadSection from "@/components/common/DownloadSection";
+import TabSection from "@/components/modules/business/TabSection";
 
 const business = () => {
   return (
@@ -27,13 +28,14 @@ const business = () => {
         <Services />
         <Features />
         <Connect />
-        <AiFeatures />
+        {/* <AiFeatures /> */}
         <Code />
-        <Switch />
-        <BusinessFeatures />
+        <TabSection />
+        {/* <Switch /> */}
+        {/* <BusinessFeatures /> */}
         {/* <QuicKredit /> */}
-        <CashFlow />
-        <Empowering />
+        {/* <CashFlow /> */}
+        {/* <Empowering /> */}
         <DownloadSection isBusiness />
         {/* <Waitlist /> */}
       </div>

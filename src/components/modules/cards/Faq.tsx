@@ -48,6 +48,7 @@ export const Faq = () => {
           <div className=" flex justify-center items-center mt-8">
             <Link href="/faq">
               <Button
+              
                 rightIcon={
                   <Image
                     src="/icons/Arrow.svg"

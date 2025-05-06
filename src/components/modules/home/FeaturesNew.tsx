@@ -21,21 +21,21 @@ const features = [
     title: "Dollar Card",
     desc: "Cashpin is a 25 digit token generated in replacement of cash. It can be redeemed in any country where tribapay is active. Cashpin also has a wallet function which allows users to save money in different wallets",
     img: "/images/dollar-card-feature.png",
-    bgColor: "bg-[#FDF0F0]",
+    bgColor: "bg-violet-200",
     // textColor: "text-white",
   },
   {
     title: "Savings",
     desc: "Cashpin is a 25 digit token generated in replacement of cash. It can be redeemed in any country where tribapay is active. Cashpin also has a wallet function which allows users to save money in different wallets",
     img: "/images/cashpin-feature.png",
-    bgColor: "bg-[#ECFAFD]",
+    bgColor: "bg-white",
     // textColor: "text-white",
   },
   {
     title: "Pay Bills",
     desc: "Cashpin is a 25 digit token generated in replacement of cash. It can be redeemed in any country where tribapay is active. Cashpin also has a wallet function which allows users to save money in different wallets",
     img: "/images/cashpin-feature.png",
-    bgColor: "bg-[#F8DBF4]",
+    bgColor: "bg-violet-200",
     // textColor: "text-white",
   },
 
@@ -43,8 +43,8 @@ const features = [
     title: "Payment Link",
     desc: "Cashpin is a 25 digit token generated in replacement of cash. It can be redeemed in any country where tribapay is active. Cashpin also has a wallet function which allows users to save money in different wallets",
     img: "/images/cashpin-feature.png",
-    bgColor: "bg-[#9672FF]",
-    textColor: "text-white",
+    bgColor: "bg-white",
+    textColor: "text-black",
   },
 ];
 

@@ -19,7 +19,7 @@ const MyCustomButton = forwardRef<HTMLButtonElement, TabButtonProps>(
       <button
         className={classNames(
           "w-full md:w-1/2 lg:w-1/3 text-2xl font-bold py-8 px-4 focus-visible:outline-none",
-          selected && "border-t-2 border-t-primaryLight"
+          selected && "border-t-4 border-t-primaryLight"
         )}
         ref={ref}
         {...props}
@@ -37,7 +37,7 @@ const TabSection = () => {
 
   return (
     <section className="my-20 max-container-width">
-      <div className="relative lg:px-20 px-5 py-10 lg:py-20 bg-white rounded-[40px] lg:gap-16 gap-9 border border-gray-100 shadow-md shadow-slate-100 overflow-hidden w-full">
+      <div className="relative lg:px-20 px-5 py-10 lg:py-20 bg-violet-50 rounded-[40px] lg:gap-16 gap-9 border border-gray-100 shadow-md shadow-slate-100 overflow-hidden w-full">
         <Tab.Group selectedIndex={selectedIndex} onChange={setSelectedIndex}>
           <Tab.List as="aside" className="flex flex-col md:flex-row">
             <Tab

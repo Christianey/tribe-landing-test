@@ -15,9 +15,94 @@ const Testimonal = () => {
           product and services.
         </p>
         <div>
-          <hr className="h-px bg-gray-200 border-0 w-full" />
+          <hr className="h-px bg-gray-200 border-0 w-full mt-8" />
           <div className="mt-20 px-0 lg:px-8">
             <div className="flex lg:flex-row flex-col items-center justify-center flex-wrap">
+              <div className="w-full md:w-1/2 p-2 lg:p-8">
+                <ScrollAnimation variant="delay1">
+                  <div className="flex flex-col text-center gap-6 bg-[#F0EEFC] border border-gray-200 rounded-3xl px-6 py-8 shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#E3DDFB]">
+                      <Image
+                        src="/images/home/Testimonal.svg"
+                        width={100}
+                        height={100}
+                        alt="staff"
+                        className="w-6 h-6"
+                      />
+                    </div>
+
+                    <p className="text-[15px] text-[#4A3E60] leading-relaxed font-medium">
+                      Tribapay's Cashpin feature has transformed the way I
+                      handle my finances. With its cutting-edge security
+                      measures, I feel completely at ease managing my funds.
+                    </p>
+
+                    <hr className="h-px bg-gray-200 border-0 w-full" />
+
+                    <h2 className="text-lg font-semibold text-[#2E147E]">
+                      Opeyemi Adekunle
+                    </h2>
+                  </div>
+                </ScrollAnimation>
+              </div>
+
+              <div className="w-full md:w-1/2 p-2 lg:p-8">
+                <ScrollAnimation variant="delay2">
+                  <div className="flex flex-col text-center gap-6 bg-[#F0EEFC] border border-gray-200 rounded-3xl px-6 py-8 shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#E3DDFB]">
+                      <Image
+                        src="/images/home/Testimonal.svg"
+                        width={100}
+                        height={100}
+                        alt="staff"
+                        className="w-6 h-6"
+                      />
+                    </div>
+
+                    <p className="text-[15px] text-[#4A3E60] leading-relaxed font-medium">
+                      I used to worry about currency conversions and security
+                      when shopping online internationally. But now, with these
+                      virtual cards, I make purchases with confidence.
+                    </p>
+
+                    <hr className="h-px bg-gray-200 border-0 w-full" />
+
+                    <h2 className="text-lg font-semibold text-[#2E147E]">
+                      Temitayo Lawrence
+                    </h2>
+                  </div>
+                </ScrollAnimation>
+              </div>
+
+              <div className="w-full md:w-1/2 p-2 lg:p-8">
+                <ScrollAnimation variant="delay3">
+                  <div className="flex flex-col text-center gap-6 bg-[#F0EEFC] border border-gray-200 rounded-3xl px-6 py-8 shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#E3DDFB]">
+                      <Image
+                        src="/images/home/Testimonal.svg"
+                        width={100}
+                        height={100}
+                        alt="staff"
+                        className="w-6 h-6"
+                      />
+                    </div>
+
+                    <p className="text-[15px] text-[#4A3E60] leading-relaxed font-medium">
+                      Managing my finances has never been this enjoyable, thanks
+                      to Tribapay's Cashpin Wallet. I can budget my money, track
+                      my expenses, manage my money, all in one place.
+                    </p>
+
+                    <hr className="h-px bg-gray-200 border-0 w-full" />
+
+                    <h2 className="text-lg font-semibold text-[#2E147E]">
+                      Taiwo Abiodun
+                    </h2>
+                  </div>
+                </ScrollAnimation>
+              </div>
+            </div>
+            {/* <div className="flex lg:flex-row flex-col items-center justify-center flex-wrap">
               <div className="w-full md:w-1/2 p-2 lg:p-8">
                 <ScrollAnimation variant="delay1">
                   <div className="flex flex-col text-center gap-5 bg-[#F0EEFC] border-[.5px] border-gray-200 rounded-3xl px-6 py-7">
@@ -80,7 +165,7 @@ const Testimonal = () => {
                   </div>
                 </ScrollAnimation>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

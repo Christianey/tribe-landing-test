@@ -5,11 +5,20 @@ import ScrollAnimation from "@/components/common/ScrollAnimation";
 import { useResponsive } from "@/components/hooks/useResponsive";
 import classNames from "classnames";
 
-const Code = () => {
+type Props = {
+  isBusiness?: boolean;
+};
+
+const Code = ({ isBusiness }: Props) => {
   const { isMobile } = useResponsive();
 
   return (
-    <section className="bg-primary-deepBlue py-5 lg:py-10">
+    <section
+      className={classNames(
+        "py-5 lg:py-10 bg-primary-deepBlue",
+        isBusiness ? "bg-[#0A0A0A]" : "bg-primary-deepBlue"
+      )}
+    >
       <div className="my-5 max-container-width">
         <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-[106px] gap-9 items-center">
           <ScrollAnimation>
@@ -25,7 +34,7 @@ const Code = () => {
                 // rightIcon={<HiMiniArrowUpRight size={24} />}
                 // disabled
                 size={isMobile ? "sm" : "md"}
-                  className={classNames("!text-gray-900", { "py-5": isMobile })} 
+                className={classNames("!text-gray-900", { "py-5": isMobile })}
               >
                 Coming soon
               </Button>

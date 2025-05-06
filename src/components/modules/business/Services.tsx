@@ -84,6 +84,9 @@ const Services = () => {
   return (
     <>
       <section className="relative lg:px-20 px-5 py-10 lg:py-32 max-container-width overflow-hidden rounded-[40px] bg-white mt-8">
+        <div className="p-4 rounded-full mx-auto max-w-md bg-violet-50 text-center font-bold mb-6 text-primary-main">
+          Seamless Payments, No Matter Your Size
+        </div>
         <ScrollAnimation>
           <div className="flex flex-col justify-center">
             <h3 className="font-bold text-2xl md:text-5xl !leading-tight mb-6">
@@ -98,7 +101,12 @@ const Services = () => {
 
           <div className="flex flex-wrap mt-10">
             {features.map((feature, idx) => (
-              <Feature key={idx} title={feature.title} desc={feature.desc} />
+              <div
+                className="p-4 flex flex-col gap-4 basis-full lg:basis-1/2"
+                key={idx}
+              >
+                <Feature key={idx} title={feature.title} desc={feature.desc} />
+              </div>
             ))}
           </div>
         </ScrollAnimation>
@@ -131,6 +139,20 @@ type Props = {
   isActive?: boolean;
 };
 
+{
+  /* <div className="flex flex-col gap-4 p-6 rounded-2xl border border-[#E3D9FF] bg-white shadow-sm hover:shadow-md transition-all duration-200">
+  <div className="h-1 w-12 bg-[#6A35FF] rounded-full" />
+
+  <h3 className="text-2xl font-semibold text-[#0A0A0A]">
+    {title}
+  </h3>
+
+  <p className="text-[#0A0A0A]/60 leading-relaxed">
+    {desc}
+  </p>
+</div> */
+}
+
 type FeatureProps = {
   title: string;
   desc: string;
@@ -138,11 +160,11 @@ type FeatureProps = {
 
 const Feature = ({ title, desc }: FeatureProps) => {
   return (
-    <div className="flex flex-col gap-4 basis-full lg:basis-1/2 grow shrink-0 pr-8 pb-8">
+    <div className="flex flex-col gap-4 grow shrink-0  pb-8 border shadow-sm hover:shadow-md transition-all duration-200 p-6 rounded-2xl">
       {/* <div className="h-2 w-32 bg-[#0A0A0A] rounded-full"></div> */}
 
-      <h3 className="text-2xl font-semibold">{title}</h3>
-      <p className="text-primaryBlack-default/50">{desc}</p>
+      <h3 className="text-xl font-semibold">{title}</h3>
+      <p className="font-normal text-zinc-500">{desc}</p>
     </div>
   );
 };

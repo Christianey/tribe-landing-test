@@ -23,13 +23,13 @@ const business = () => {
         <meta name="theme-color" content="#623ECA" />
         <title>Tribapay • Connecting Africa, one payment at a time</title>
       </Head>
-      <div className="w-full bg-[#FEF1F1]">
+      <div className="w-full bg-white">
         <Hero />
         <Services />
         <Features />
         <Connect />
         {/* <AiFeatures /> */}
-        <Code />
+        <Code isBusiness />
         <TabSection />
         {/* <Switch /> */}
         {/* <BusinessFeatures /> */}

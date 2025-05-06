@@ -6,14 +6,22 @@ import { useResponsive } from "@/components/hooks/useResponsive";
 import classNames from "classnames";
 import Link from "next/link";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
+type Props = {
+  isBusiness?: boolean;
+};
 
-const Connect = () => {
+const Connect = ({ isBusiness }: Props) => {
   const { isMobile } = useResponsive();
 
   return (
     <section className="my-20 max-container-width">
       <ScrollAnimation>
-        <div className="relative lg:px-20 px-5 py-32 bg-[#7E50FF] rounded-[40px] lg:gap-16 gap-9 border border-gray-100 shadow-md shadow-slate-100 overflow-hidden">
+        <div
+          className={classNames(
+            "relative lg:px-20 px-5 py-32 rounded-[40px] lg:gap-16 gap-9 border border-gray-100 shadow-md shadow-slate-100 overflow-hidden",
+            isBusiness ? "bg-[#0A0A0A]" : "bg-[#7E50FF]"
+          )}
+        >
           <div className="relative z-20 flex flex-col text-center">
             <h3 className="text-white font-bold lg:text-4xl text-3xl">
               Connect By Tribapay

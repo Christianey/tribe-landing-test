@@ -46,7 +46,7 @@ const Features = () => {
           <h2 className="max-w-[40.625rem] mx-auto text-center font-bold text-2xl md:text-4xl lg:text-6xl leading-tight ">
             Features That Get You Results
           </h2>
-          <p className="max-w-[48.625rem] text-text-gray-text mt-4 lg:mt-6 mb-[5rem] text-center font-medium text-base lg:text-lg">
+          <p className="max-w-[48.625rem] text-text-gray-text mt-4 lg:mt-6 mb-[5rem] text-center font-medium text-base lg:text-lg font-dm-sans">
             Tribapay empowers you with a suite of dynamic features designed to
             deliver real results. From secure Cashpin transactions to
             transforming airtime into cash, Tribapay ensures your financial

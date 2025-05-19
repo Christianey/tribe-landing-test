@@ -92,7 +92,7 @@ const Services = () => {
             <h3 className="font-bold text-2xl md:text-5xl !leading-tight mb-6">
               Removing Payment <br /> Barriers for Everyone
             </h3>
-            <p className="max-w-[880px] text-primaryBlack-default/50 lg:text-lg text-base leading-normal">
+            <p className="max-w-[880px] text-primaryBlack-default/50 lg:text-lg text-base leading-normal font-dm-sans">
               We recognize that there is no one-size-fits-all solution for
               payment needs. Therefore, we have developed our platform to be
               flexible and adaptable to a wide variety of payment scenarios.
@@ -110,7 +110,7 @@ const Services = () => {
             ))}
           </div>
         </ScrollAnimation>
-        <div className="absolute right-0 -top-20">
+        <div className="absolute right-0 -top-20 opacity-10 md:opacity-100">
           <Image
             priority={true}
             src="/images/map.svg"
@@ -183,7 +183,7 @@ const ServiceCards = ({ cls = "", isActive = false, item }: Props) => {
           <h2 className="break-words text-zinc-900 group-hover:text-white text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">
             {item?.title}
           </h2>
-          <div className=" text-zinc-500 text-sm md:text-base font-medium group-hover:text-white">
+          <div className=" text-zinc-500 text-sm md:text-base font-medium group-hover:text-white font-dm-sans">
             {item?.desc}
           </div>
         </div>

@@ -33,7 +33,7 @@ const BusinessFeatures = () => {
                 <h2 className="mb-5 text-2xl sm:text-3xl lg:text-4xl font-bold">
                   {feature.title}
                 </h2>
-                <p className="text-primaryBlack-default/50 font-medium text-sm lg:text-base mb-8 md:mb-4 lg:mb-8">
+                <p className="text-primaryBlack-default/50 font-medium text-sm lg:text-base mb-8 md:mb-4 lg:mb-8 font-dm-sans">
                   {feature.description}
                 </p>
               </div>

@@ -55,7 +55,7 @@ export const Collapsible = ({
               open: { height: "auto" },
             }}
           >
-            <div className="py-5 md:px-2 pt-2 text-sm md:text-base">
+            <div className="py-5 md:px-2 pt-2 text-sm md:text-base font-dm-sans">
               {content}
             </div>
           </motion.section>

@@ -56,7 +56,7 @@ const Feature = forwardRef<
     <div
       ref={ref}
       className={classNames(
-        "flex flex-col p-14 gap-6 h-[80dvh]",
+        "flex flex-col p-14 gap-6 lg:h-[80dvh]",
         feature.bgColor
       )}
     >

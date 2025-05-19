@@ -15,7 +15,7 @@ const HeroNew = () => {
               by Africans
             </h1>
 
-            <p className="text-white lg:text-lg text-base font-medium leading-normal lg:mb-[60px] mb-10">
+            <p className="text-white lg:text-lg text-base font-medium leading-normal lg:mb-[60px] mb-10 font-dm-sans">
               Tribapay helps individuals and businesses collect and make
               payments both locally and internationally.
             </p>

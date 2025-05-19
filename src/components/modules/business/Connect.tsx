@@ -26,7 +26,7 @@ const Connect = ({ isBusiness }: Props) => {
             <h3 className="text-white font-bold lg:text-4xl text-3xl">
               Connect By Tribapay
             </h3>
-            <p className="py-4 lg:my-6 text-base lg:text-lg text-white">
+            <p className="py-4 lg:my-6 text-base lg:text-lg text-white font-dm-sans">
               Payment processing gateway that allows businesses to seamlessly
               process and accept online payments locally and across borders
               through integration of our Developer APIs or No-code tools

@@ -10,7 +10,7 @@ const Testimonal = () => {
         <h3 className="max-w-[37.5625rem] lg:text-[3.75rem] text-[2rem] leading-tight  font-extrabold">
           Don’t just take our word for it{" "}
         </h3>
-        <p className="text-text-gray-text mt-6 lg:text-lg text-base lg:max-w-[40.625rem]">
+        <p className="text-text-gray-text mt-6 lg:text-lg text-base lg:max-w-[40.625rem] font-dm-sans">
           We serve thousands of customers here is what our users feel about our
           product and services.
         </p>
@@ -31,7 +31,7 @@ const Testimonal = () => {
                       />
                     </div>
 
-                    <p className="text-[15px] text-[#4A3E60] leading-relaxed font-medium">
+                    <p className="text-[15px] text-[#4A3E60] leading-relaxed font-medium font-dm-sans">
                       Tribapay's Cashpin feature has transformed the way I
                       handle my finances. With its cutting-edge security
                       measures, I feel completely at ease managing my funds.
@@ -59,7 +59,7 @@ const Testimonal = () => {
                       />
                     </div>
 
-                    <p className="text-[15px] text-[#4A3E60] leading-relaxed font-medium">
+                    <p className="text-[15px] text-[#4A3E60] leading-relaxed font-medium font-dm-sans">
                       I used to worry about currency conversions and security
                       when shopping online internationally. But now, with these
                       virtual cards, I make purchases with confidence.
@@ -87,7 +87,7 @@ const Testimonal = () => {
                       />
                     </div>
 
-                    <p className="text-[15px] text-[#4A3E60] leading-relaxed font-medium">
+                    <p className="text-[15px] text-[#4A3E60] leading-relaxed font-medium font-dm-sans">
                       Managing my finances has never been this enjoyable, thanks
                       to Tribapay's Cashpin Wallet. I can budget my money, track
                       my expenses, manage my money, all in one place.

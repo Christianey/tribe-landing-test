@@ -77,7 +77,7 @@ const Features = () => {
             </div>
 
             <h2 className="mb-4 text-2xl font-bold">{feature.title}</h2>
-            <p className="text-primaryBlack-default/50 font-medium text-sm">
+            <p className="text-primaryBlack-default/50 font-medium text-sm font-dm-sans">
               {feature.description}
             </p>
           </ScrollAnimation>

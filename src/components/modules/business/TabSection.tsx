@@ -1,12 +1,10 @@
+import { useResponsive } from "@/components/hooks/useResponsive";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
 import { forwardRef, useState } from "react";
-import Switch from "./Switch";
+import AiFeatures from "./AiFeatures";
 import BusinessFeatures from "./BusinessFeatures";
 import CashFlow from "./CashFlow";
-import Empowering from "./Empowering";
-import AiFeatures from "./AiFeatures";
-import { useResponsive } from "@/components/hooks/useResponsive";
 
 type TabButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   name: string;
@@ -26,7 +24,7 @@ const MyCustomButton = forwardRef<HTMLButtonElement, TabButtonProps>(
 
     // Define styles for mobile
     const mobileStyles = classNames(
-      "w-full text-lg md:text-xl lg:text-2xl font-bold py-4 md:py-6 px-4 rounded-lg transition-all duration-300 focus-visible:outline-none text-gray-700",
+      "w-full text-lg font-bold p-4 rounded-lg transition-all duration-300 focus-visible:outline-none text-gray-700",
       selected && "bg-primaryLight text-white shadow-lg"
     );
 

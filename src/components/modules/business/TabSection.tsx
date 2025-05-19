@@ -1,7 +1,7 @@
 import { useResponsive } from "@/components/hooks/useResponsive";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
-import { forwardRef, useState } from "react";
+import { forwardRef, useState, useEffect } from "react";
 import AiFeatures from "./AiFeatures";
 import BusinessFeatures from "./BusinessFeatures";
 import CashFlow from "./CashFlow";
@@ -15,6 +15,12 @@ const MyCustomButton = forwardRef<HTMLButtonElement, TabButtonProps>(
   (props, ref) => {
     const { name, selected } = props;
     const { isMobile } = useResponsive();
+    const [isMobileState, setIsMobileState] = useState(false);
+
+    // Ensure `isMobile` is updated after the component mounts
+    useEffect(() => {
+      setIsMobileState(isMobile);
+    }, [isMobile]);
 
     // Define styles for desktop
     const desktopStyles = classNames(
@@ -30,7 +36,7 @@ const MyCustomButton = forwardRef<HTMLButtonElement, TabButtonProps>(
 
     return (
       <button
-        className={isMobile ? mobileStyles : desktopStyles}
+        className={isMobileState ? mobileStyles : desktopStyles}
         ref={ref}
         {...props}
       >

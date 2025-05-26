@@ -42,8 +42,6 @@ const Hero = () => {
                     intent={"primary-light"}
                     rightIcon={<HiMiniArrowUpRight size={24} />}
                     size={"lg"}
-                    className="!rounded-full bg-[#7E50FF] text-[#7E50FF]"
-
                   >
                     Get Started
                   </Button>

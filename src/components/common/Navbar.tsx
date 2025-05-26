@@ -354,37 +354,6 @@ const Navbar = () => {
 
   return (
     <div ref={el} className="transition-all w-full top-0 z-50 fixed">
-      <nav className="w-full bg-black py-1 block lg:hidden">
-        <ul className="flex max-container-width space-x-4">
-          {exlinks.map((link, index) => (
-            <Link
-              key={index}
-              href={link.route}
-              className={classNames("font-medium text-white", {
-                "!font-bold text-[#9672FF]": getActivePath(link),
-              })}
-            >
-              <li className="flex flex-col items-center text-xs font-bold pt-2">
-                <p
-                  className={classNames("py-1.5", {
-                    "text-white":
-                      navTheme === "light" || navTheme === "deepblue",
-                  })}
-                >
-                  {link.name}
-                </p>
-                <p
-                  className={`${
-                    getActivePath(link)
-                      ? "w-[80px]  border-[2px] border-solid border-[#9672FF]"
-                      : ""
-                  }`}
-                ></p>
-              </li>
-            </Link>
-          ))}
-        </ul>
-      </nav>
       <nav
         className={classNames(
           "w-full ",
@@ -648,6 +617,37 @@ const Navbar = () => {
               </li>
             );
           })}
+        </ul>
+      </nav>
+      <nav className="w-full bg-black py-1 block lg:hidden">
+        <ul className="flex max-container-width space-x-4">
+          {exlinks.map((link, index) => (
+            <Link
+              key={index}
+              href={link.route}
+              className={classNames("font-medium text-white", {
+                "!font-bold text-[#9672FF]": getActivePath(link),
+              })}
+            >
+              <li className="flex flex-col items-center text-xs font-bold pt-2">
+                <p
+                  className={classNames("py-1.5", {
+                    "text-white":
+                      navTheme === "light" || navTheme === "deepblue",
+                  })}
+                >
+                  {link.name}
+                </p>
+                <p
+                  className={`${
+                    getActivePath(link)
+                      ? "w-[80px]  border-[2px] border-solid border-[#9672FF]"
+                      : ""
+                  }`}
+                ></p>
+              </li>
+            </Link>
+          ))}
         </ul>
       </nav>
     </div>

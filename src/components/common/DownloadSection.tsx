@@ -9,11 +9,11 @@ type Props = {
 
 const DownloadSection = ({ isBusiness }: Props) => {
   return (
-    <section className="px-4 lg:px-0 lg:pb-[160px] pb-[124px]">
-      <div className="bg-right bg-no-repeat lg:bg-contain bg-cover max-container-width mt-[128px] lg:mt-[13rem] overflow-hidden font-medium max-w-7xl">
+    <section className="px-4 lg:px-0 lg:pb-[160px] pb-[8rem]">
+      <div className="bg-right bg-no-repeat lg:bg-contain bg-cover max-container-width mt-[8rem] lg:mt-[5rem] overflow-hidden font-medium max-w-7xl">
         <div className="flex flex-col lg:items-center lg:justify-between text-center">
           <div className="flex flex-col items-center lg:p-8">
-            <h1 className="text-3xl lg:text-4xl font-black leading-snug capitalize mb-2 lg:p-0 pt-12 pb-3 lg:pb-3">
+            <h1 className="text-3xl lg:text-4xl font-black leading-snug capitalize mb-2 lg:p-0 pb-3 lg:pb-3">
               Download <br className="lg:hidden flex" /> the mobile app
             </h1>
             <p className="lg:text-xl text-[14px] max-w-[36.875rem]">

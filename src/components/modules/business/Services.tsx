@@ -83,8 +83,8 @@ const Services = () => {
 
   return (
     <>
-      <section className="relative lg:px-20 px-5 py-10 lg:py-32 max-container-width overflow-hidden rounded-[40px] bg-white mt-8">
-        <div className="p-4 rounded-full mx-auto max-w-md bg-violet-50 text-center font-bold mb-6 text-primary-main">
+      <section className="relative py-10 lg:py-20 max-container-width overflow-hidden rounded-[40px] bg-white mt-8">
+        <div className="p-4 rounded-full max-w-md bg-violet-50 text-center font-bold mb-6 text-primary-main">
           Seamless Payments, No Matter Your Size
         </div>
         <ScrollAnimation>
@@ -99,10 +99,10 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap mt-10">
+          <div className="flex flex-wrap gap-4 mt-10">
             {features.map((feature, idx) => (
               <div
-                className="p-4 flex flex-col gap-4 basis-full lg:basis-1/2"
+                className="flex flex-col gap-4 basis-full lg:basis-[calc(50%-1rem)]"
                 key={idx}
               >
                 <Feature key={idx} title={feature.title} desc={feature.desc} />

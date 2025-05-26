@@ -39,13 +39,7 @@ const Features = () => {
     },
   ];
   return (
-    <section className="lg:my-20 my-[60px] max-container-width !overflow-visible">
-      <div className="items-center mb-16">
-        {/* <h3 className="font-bold text-4xl md:text-5xl lg:text-6xl">
-          Worry less,
-          <br /> we’ve got this!
-        </h3> */}
-      </div>
+    <section className="lg:my-10 my-5 max-container-width !overflow-visible">
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
         {/* <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6"> */}
         {FeaturesList.map((feature, index) => (

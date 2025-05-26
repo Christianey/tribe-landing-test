@@ -6,7 +6,7 @@ import ScrollAnimation from "@/components/common/ScrollAnimation";
 const Testimonal = () => {
   return (
     <ScrollAnimation>
-      <section className="max-container-width mb-[128px] md:mb-[13rem] flex flex-col justify-center items-center text-center">
+      <section className="max-container-width mb-[128px] md:mb-[8rem] flex flex-col justify-center items-center text-center">
         <h3 className="max-w-[37.5625rem] lg:text-[3.75rem] text-[2rem] leading-tight  font-extrabold">
           Don’t just take our word for it{" "}
         </h3>

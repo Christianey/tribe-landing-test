@@ -26,7 +26,7 @@ const Home = () => {
         {/* <UsersSection /> */}
         <FeaturesNew />
         {/* <Features /> */}
-        <div className="max-container-width py-[164px] lg:py-[216px] md:px-20">
+        <div className="max-container-width py-14 lg:py-[216px] md:px-20">
           <HomeVideo />
         </div>
         <Testimonal />

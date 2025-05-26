@@ -14,11 +14,11 @@ const Connect = ({ isBusiness }: Props) => {
   const { isMobile } = useResponsive();
 
   return (
-    <section className="my-20 max-container-width">
+    <section className="my-14 max-container-width">
       <ScrollAnimation>
         <div
           className={classNames(
-            "relative lg:px-20 px-5 py-32 rounded-[40px] lg:gap-16 gap-9 border border-gray-100 shadow-md shadow-slate-100 overflow-hidden",
+            "relative lg:px-20 px-5 py-10 lg:py-32 rounded-[40px] lg:gap-16 gap-9 border border-gray-100 shadow-md shadow-slate-100 overflow-hidden",
             isBusiness ? "bg-[#0A0A0A]" : "bg-[#7E50FF]"
           )}
         >

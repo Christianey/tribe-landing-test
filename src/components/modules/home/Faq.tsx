@@ -35,7 +35,7 @@ const faqList = [
 export const Faq = () => {
   return (
     <ScrollAnimation>
-      <div className="max-container-width pb-20">
+      <div className="max-container-width">
         <div className="flex flex-col md:flex-row md:items-center gap-5 justify-between">
           <h1 className="text-3xl md:text-5xl font-medium text-center flex-1 pb-10">
             Got questions?
